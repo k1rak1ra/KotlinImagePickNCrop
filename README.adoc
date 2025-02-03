@@ -1,4 +1,5 @@
 = KotlinImagePickNCrop
+Kotlin Multiplatform image picker and cropper
 
 Reconstructed source code for https://github.com/Chaintech-Network/CMP-image-pick-n-crop, due to their refusal to release their source despite claiming it is MIT-licensed
 
