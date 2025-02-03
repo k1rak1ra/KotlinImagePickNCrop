@@ -1,0 +1,5 @@
+= KotlinImagePickNCrop
+
+Reconstructed source code for https://github.com/Chaintech-Network/CMP-image-pick-n-crop, due to their refusal to release their source despite claiming it is MIT-licensed
+Added image picker support for wasmJs (Maybe if the original code was actually released publicly, I could've just contributed to it directly instead!)
+Refer to original code for documentation
