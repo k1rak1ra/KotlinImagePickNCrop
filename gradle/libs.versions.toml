@@ -1,17 +1,16 @@
 [versions]
-agp = "8.5.2"
-android-compileSdk = "35"
+agp = "8.13.2"
+android-compileSdk = "36"
 android-minSdk = "24"
-android-targetSdk = "35"
-androidx-activityCompose = "1.10.0"
-compose = "1.7.7"
-compose-multiplatform = "1.7.3"
-kotlin = "2.1.0"
-kover = "0.9.1"
-dokka = "2.0.0"
-accompanist = "0.36.0"
-jna = "5.14.0"
-zxing = "3.4.1"
+android-targetSdk = "36"
+androidx-activityCompose = "1.13.0"
+compose = "1.10.3"
+kotlin = "2.3.20"
+kover = "0.9.8"
+dokka = "2.2.0"
+accompanist = "0.37.3"
+jna = "5.18.1"
+zxing = "3.5.4"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -27,7 +26,7 @@ desktop-zxing = { module = "com.google.zxing:javase", version.ref = "zxing" }
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
-composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose" }
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
